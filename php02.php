@@ -1,9 +1,11 @@
 <?php
 $name = 'kota';
-if ($name = 'kota') {
+if ($name == 'kota') {
     echo "私はkotaです";
 }
-  else {"kotaではありません";
+  else {
+    echo "kotaではありません";
+
 }
 echo "\n";
 $total = 0;
@@ -21,9 +23,12 @@ foreach($fruits as $fruits){
   $start = 1;
   $end = 100;
 
-for($i = $start; $i < $end; $i++){
+for($i = $start; $i <= $end; $i++){
     if($i % 5 == 0){
         echo $i;
-        echo "\n"; }
+        echo "\n"; 
+    }
 }
 ?>
+
+
