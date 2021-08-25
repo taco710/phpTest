@@ -1,6 +1,6 @@
 <?php
 $name = 'kota';
-if ($name = 'kta') {
+if ($name = 'kota') {
     echo "私はkotaです";
 }
   else {"kotaではありません";
